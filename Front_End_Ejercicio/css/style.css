@@ -1,0 +1,357 @@
+body{
+    margin: 0%;
+    background-color:  #E5E5E5;
+}
+
+*{
+    margin: 0%;
+}
+
+.franjaInicial{
+    background-color: #222222;
+    width: 100%;
+    height: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.franjaInicial-letras{
+    font-size: 10px;
+    margin-left: 80px;
+}
+
+.idiomas{
+    font-size: 10px;
+    margin-right: 50px;
+}
+
+.cabeceraPagina{
+    background-color: #F0A83E;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listaCategorias{
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.logoCabecera{
+    height: 23px;
+    width: 166.38px;
+}
+
+.frontPrincipal{
+    background-image: url("../Images/background\ 1.png");
+    height: 469px;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.listaPromociones{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto1{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-right: 10px;
+    width: 365px;
+    font-weight: lighter;
+}
+
+
+.texto2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+}
+
+.texto3{
+    background-color: #F0A83E;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 19px;
+    width: 80px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    padding: 15px 23px;
+}
+
+.frontSecundario{
+    display: flex;
+    width: 40% ;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+
+.iconoHuella{
+    width: 67px;
+    height: 71px;
+    
+}
+
+h1{
+    font-family: 'Roboto', sans-serif; 
+    color: #3C2313;  
+    font-size: 40px;
+    text-align: center;
+}
+
+.productDestacados{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #666666;
+    text-align: center;
+    line-height: 50px;
+    
+}
+
+.imagenesDestacadas{
+display: flex;
+justify-content: space-around;
+}
+
+.label1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #3C2313;
+    text-align: center;
+}
+
+.label2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color:#F0A83E ;
+    text-align: center;
+}
+
+.seccionContactanos{
+    height: 200px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;  
+    color: #3C2313;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.label3{
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    line-height: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.label4{
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    line-height: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.label5{
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 9px;
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    line-height: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.botones{
+    height: 100px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.botonReset{
+    background-color: #8A8787;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 110px;
+    height: 24px;
+    border-radius: 15px;
+    padding-left: 8px;
+    text-align: center;
+}
+
+.botonEnviar{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 110px;
+    height: 24px;
+    border-radius: 15px;
+    padding-left: 8px;
+    text-align: center;
+}
+
+
+
+.boton-suscripcion{
+    background-color: #F0A83E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px; 
+    color: #fff;
+    width: 100%;
+    height: 55px;
+    line-height: 45px;
+}
+
+.informacion{
+    width: 100%;
+    background-color: #3C2313;
+    height: 180px;
+}
+
+.Row{
+    width: 100%;
+    display: inline-block;
+}
+
+.icono{
+    width: 46px;
+    font-size: 25px;
+    color: white;
+    padding-left: 40px;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.botonCorreo{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #A0A0A0;
+    font-size: 9px; 
+    line-height: 40px;
+    text-align: left;
+    margin-right: 10px;
+    border-radius: 15px;
+    float: right;
+    width: 271px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.botonSuscri-correo{
+    background-color: #3C2313;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    width: 70px;
+    height: 34px;
+    border-radius: 15px;
+    font-size: 9px;
+    float: right;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.descripcion{
+display: inline-block;
+}
+
+footer p, footer section{
+    margin: 0;
+}
+.puntoInformacion{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.letraMenuda{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: #8A8787;
+
+}
+
+.derechosReservados{
+    background-color: #222222;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+*{
+    margin: 0;
+}
+
+.logo2{
+    text-align: right;
+    margin-right: 10%;
+}
+
+.Logo21{
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.piePagina i{
+    margin-top: 5px;
+}
